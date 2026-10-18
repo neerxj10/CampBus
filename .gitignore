@@ -1,0 +1,47 @@
+# Operating System Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java Bytecode & Build Artifacts
+*.class
+bin/
+target/
+build/
+*.jar.bak
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Academic Reports & Generator Scripts (Code Only in Repo)
+*.pdf
+*.docx
+CampBus_Report_Checklist.md
+CampBus_Report_Assets/
+generate_pdf.py
+generate_docx.py
+generate_diagrams.py
+duplichecker_report.*
+
+# Reference Materials (Samples)
+Batch_*.pdf
+*_copy.pdf
+* copy.pdf
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & Temporary Files
+*.log
+scratch/
+tmp/
